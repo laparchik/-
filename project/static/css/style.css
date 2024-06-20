@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 767px) {
+       ul {
+        flex-direction: column;
+       }
+       .as {
+        position: relative;
+        right: 160px;
+       } 
+       .previewbloks {
+        flex-direction: column;
+       }
+       .button_shop {
+        flex-direction: column;
+       }
+       .ul_two {
+        flex-direction: column;
+       }
+       .page_three {
+        flex-direction: column;
+       }
+       .swiper-wrapper {
+        flex-direction: column;
+       }
+       .footer {
+        flex-direction: column;
+       }
+       .swiper {
+        overflow-y: auto;
+        overflow-y: auto;
+       }
+       .page_two {
+        margin-left: 130px;
+       }
+       .center_block {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+       }
+       .small_text {
+        max-width: 300px;
+       }
+       .big_text {
+        max-width: 300px;
+       }
+       .email {
+        max-width: 80px;
+       }
+       .shop_c {
+        margin-top: 20px;
+       }
+    }
+
+
+ul {
+    display: flex;
+    margin: 24px 0 0 100px;
+    list-style-type: none;
+    align-items: center;
+    font-family: 'Jost';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:active {
+    color: bisque;
+    transition: all 1s;
+    margin-right: 20px;
+}
+
+.page_one {
+    background-color: #EEEFF1;
+}
+
+.cs {
+    margin: 0 20px 0 43px;
+}
+
+.as {
+    margin: 0 40px 0 358px;
+}
+
+.bs {
+    margin: 0 40px 0 40px;
+}
+
+.big_text {
+    font-family: 'Jost';
+    font-size: 124px;
+    font-weight: 800;
+    line-height: 140px;
+    text-align: left;
+    width: 597px;
+}
+
+.big_text:hover {
+    transition: all 5s;
+    font-size: 50px;
+}
+
+.small_text {
+    font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+    width: 530px;
+    margin: 30px 0 70px 0;
+}
+.small_text:hover {
+    transition: all 5s;
+    opacity: 50%;
+    color: #EEEFF1;
+}
+.download_b {
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 126px;
+}
+
+.download_b:hover {
+    color: rgb(17, 119, 17);
+    transition: all 5s;
+    border: 10px solid rgb(17, 119, 17);
+    background-color: white;
+}
+
+.shop_c {
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26.01px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.shop_c:hover {
+    text-decoration: overline;
+}
+
+.previewbloks {
+
+    display: flex;
+    margin: 56px 0 0 100px;
+
+}
+
+.button_shop {
+    display: flex;
+}
+
+.text_prew {
+    z-index: 2;
+}
+
+.photo_prew {
+    position: relative;
+    right: 40px;
+    z-index: 1;
+}
+
+.title_ptwo {
+    font-family: 'Jost';
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+}
+
+.page_two {
+    margin-top: 140px;
+}
+
+.text_title {
+
+    font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: center;
+    margin: 24px 0 90px 0;
+
+}
+
+.title_ptwo:hover {
+    transition: all 5s;
+    color: rgb(31, 175, 175);
+
+}
+
+.ul_two {
+    list-style-type: none;
+    align-items: center;
+    font-family: 'Jost';
+
+    font-weight: 500;
+    line-height: 21.68px;
+    display: flex;
+}
+
+.center_block {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 394px;
+    border: 1px solid whitesmoke;
+    border-radius: 24px;
+    box-shadow: 7px 9px 1px 1px slategrey;
+}
+
+.center_block:hover {
+    transition: all 5s;
+    margin-left:10px ;
+}
+
+.name {
+
+    font-family: 'Jost';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52.02px;
+    text-align: left;
+    padding: 40px 0 8px 31px;
+
+}
+
+.text_name {
+
+    padding: 0 44px 60px 31px;
+    font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+
+}
+.name:hover {
+    text-align: center;
+    transition: all 15s;
+}
+.button {
+
+    margin: 0 81px 55px 81px;
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    padding: 15px 30px;
+    background-color: black;
+    border-radius: 126px;
+    text-transform: uppercase;
+}
+.button:hover {
+    transition: all 5s;
+    background-color: azure;
+    color: black;
+}
+
+.photo {
+    padding: 0 121px 60px 121px;
+}
+
+.block {
+    width: 394px;
+    border: 1px solid whitesmoke;
+    border-radius: 24px;
+    box-shadow: 7px 9px 1px 1px slategrey;
+}
+.block:hover {
+    transition: all 5s;
+    margin-left:10px ;
+}
+
+
+.three_bloks {
+    margin: 0 100px 140px 100px;
+    ;
+}
+
+.order_text {
+    font-family: 'Jost';
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: left;
+
+}
+
+.text_amet {
+    font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
+
+}
+
+.button_order {
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 126px;
+    text-transform: uppercase;
+    width: 191px;
+}
+
+.button_order:hover {
+    transition: all 15s;
+    font-size: 5px;
+    color: black;
+}
+
+
+.page_three {
+    margin: 0 100px 140px 100px;
+    display: flex;
+}
+
+.text_oreder {
+    width: 512px;
+}
+
+.text_amet {
+    margin: 30px 0 60px 0;
+}
+
+.name_what {
+    font-family: 'Jost';
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+    width: 454px;
+    margin: 0 auto;
+}
+
+.photo_reiting {
+    margin: 40px 0 100px 0;
+    text-align: center;
+}
+
+.swipers {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.swiper {
+    width: calc(100% - 20%);
+    height: calc(100vh - 4vh);
+
+    border-radius: 8px;
+}
+
+.swiper-slide {
+    width: 216.5px;
+    height: 648px;
+    gap: 0px;
+    border-radius: 16px 0px 0px;
+    margin-right: 10px;
+}
+
+.broklyn_star {
+
+    display: flex;
+    align-items: center;
+    margin: 40px 119px 35px 42px;
+
+}
+
+.broklyn {
+
+    font-family: 'Jost';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.text_coment {
+
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    width: 387px;
+    margin: 0 69px 42px 42px;
+
+}
+
+.star {
+    margin-left: 10px;
+}
+
+.footer {
+
+    display: flex;
+    margin: 140px 100px 80px 100px;
+
+}
+
+.textlogo {
+
+    font-family: 'Jost';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    width: 558px;
+    margin: 40px 268px 107px 0px;
+
+}
+
+.storeloc {
+
+    width: 558px;
+
+}
+
+.namestore {
+
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+
+}
+
+.txtstore {
+
+    font-family: 'Jost';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin: 30px 0;
+
+}
+
+.textcontact {
+
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+    width: 364px;
+
+}
+
+.photologo {
+
+    margin: 30px 0 89px 0;
+
+}
+
+.namefirst {
+
+    font-family: 'Jost';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+
+}
+
+.email {
+
+    margin: 30px 0;
+    border-radius: 65px;
+    padding: 20px 0px 20px 30px;
+    width: 413px;
+
+}
+
+.but_sub {
+
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 126px;
+    text-transform: uppercase;
+    width: 121px;
+
+}
+.but_sub:hover {
+    background-color: white;
+    color: black;
+}
+
+.bottom_footer {
+
+    margin: 0 100px 100px;
+
+}
